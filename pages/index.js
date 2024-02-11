@@ -35,7 +35,7 @@ export default function HomePage() {
                   Contact Me
                 </Button>
               </Link>
-              <a href='/public/assets/Festus Osayi resume_.pdf' download className='btn outline download__resume'>Download Resume</a>
+              <a href='/assets/FESTUS OSAYI_RESUME__.pdf' download className='btn outline download__resume'>Download Resume</a>
             </div>
             <div className='hero__border flex gap-4 mt-[5rem] bg-[#111724] py-3 px-5 rounded-2xl justify-center lg:justify-start'>
               <div className='social__network linkedIn'>
@@ -50,12 +50,12 @@ export default function HomePage() {
             </div>
           </Col>
           <Col md='5' className='hidden lg:block'>
-              <Image
-                src='/assets/Festus Osayi.png'
-                alt='my personal image'
-                className='w-full h-full object-cover bg-no-repeat rounded-[50%]'
-                fluid
-              />
+            <Image
+              src='/assets/Festus Osayi.png'
+              alt='my personal image'
+              className='w-full h-full object-cover bg-no-repeat rounded-[50%]'
+              fluid
+            />
           </Col>
         </Row>
       </Container>

@@ -65,7 +65,7 @@ export default function AboutPage() {
                   </span>
                 </li>
               </ul>
-              <a href='/assets/Festus Osayi resume_.pdf' download
+              <a href='/assets/FESTUS OSAYI_RESUME__.pdf' download
                 className="btn light mt-5" aria-labelledby='Downloadresumebutton'
               >Download Resume</a>
             </Col>

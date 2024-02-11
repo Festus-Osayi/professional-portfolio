@@ -11,24 +11,24 @@ export default function EducationPage() {
             <Layout />
             {/* My education and Experience */}
             <section className="education__section container__area">
-                <Container>
+                <Container fluid='md'>
                     <SectionHeading>
                         Education
                     </SectionHeading>
                     <Row>
                         {/* Education description */}
-                        <Col lg={6}>
-                            <div className='flex items-center gap-4 mb-5'>
+                        <Col md={6}>
+                            <div className='flex items-center gap-4 mb-4'>
                                 <FaSchool className="text-gray-600 text-5xl" />
                                 <h1 className="text-white text-4xl">Life in College</h1>
                             </div>
-                            <p className="text-greyTextColor">My four semesters at Seneca College have equipped me with comprehensive knowledge in web development, data structures, and object-oriented programming. It was a dynamic journey, involving academic exploration, hands-on projects, collaboration in team settings, engagement in extracurricular activities such as the Seneca Science & Technology Guild and Board Game Club, personal growth experiences, and networking opportunities. These experiences have collectively contributed to the establishment of a robust foundation for my career aspirations in software and full-stack development.</p>
+                            <p className="text-greyTextColor mb-4">My four semesters at Seneca College have equipped me with comprehensive knowledge in web development, data structures, and object-oriented programming. It was a dynamic journey, involving academic exploration, hands-on projects, collaboration in team settings, engagement in extracurricular activities such as the Seneca Science & Technology Guild and Board Game Club, personal growth experiences, and networking opportunities. These experiences have collectively contributed to the establishment of a robust foundation for my career aspirations in software and full-stack development.</p>
                         </Col>
                         {/* End of my education description */}
 
                         {/* My educational background */}
-                        <Col lg={6} className="mb-5">
-                            <div className='flex items-center gap-4 mb-5'>
+                        <Col md={6}>
+                            <div className='flex items-center gap-4 mb-4'>
                                 <HiAcademicCap className="text-gray-600 text-5xl" />
                                 <h1 className="text-white text-4xl">Education</h1>
                             </div>

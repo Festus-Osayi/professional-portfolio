@@ -22,7 +22,7 @@ export default function EducationPage() {
                                 <FaSchool className="text-gray-600 text-5xl" />
                                 <h1 className="text-white text-4xl">Life in College</h1>
                             </div>
-                            <p className="text-greyTextColor mb-4">My four semesters at Seneca College have equipped me with comprehensive knowledge in web development, data structures, and object-oriented programming. It was a dynamic journey, involving academic exploration, hands-on projects, collaboration in team settings, engagement in extracurricular activities such as the Seneca Science & Technology Guild and Board Game Club, personal growth experiences, and networking opportunities. These experiences have collectively contributed to the establishment of a robust foundation for my career aspirations in software and full-stack development.</p>
+                            <p className="text-greyTextColor mb-5">My four semesters at Seneca College have equipped me with comprehensive knowledge in web development, data structures, and object-oriented programming. It was a dynamic journey, involving academic exploration, hands-on projects, collaboration in team settings, engagement in extracurricular activities such as the Seneca Science & Technology Guild and Board Game Club, personal growth experiences, and networking opportunities. These experiences have collectively contributed to the establishment of a robust foundation for my career aspirations in software and full-stack development.</p>
                         </Col>
                         {/* End of my education description */}
 

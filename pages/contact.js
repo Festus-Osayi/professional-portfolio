@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa";
 import { BsWhatsapp } from 'react-icons/bs'
 import { HiEnvelope } from "react-icons/hi2";
-
+import { emailjsServices } from "@/lib/contact/contact";
 import { useRef, useState } from "react";
 import { withSwal } from 'react-sweetalert2' /**  SweetAlert2 */
 import emailjs from "emailjs-com";
@@ -35,10 +35,10 @@ function ContactPage({ swal }) {
 
         emailjs
             .sendForm(
-                process.env.NEXT_PUBLIC_SERVICE_ID,
-                process.env.NEXT_PUBLIC_TEMPLATE_ID,
+                emailjsServices.serviceId,
+                emailjsServices.templateId,
                 form.current,
-                process.env.NEXT_PUBLIC_PUBLIC_KEY
+                emailjsServices.publicKey
             )
             .then(
                 (result) => {

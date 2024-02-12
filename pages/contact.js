@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa";
 import { BsWhatsapp } from 'react-icons/bs'
 import { HiEnvelope } from "react-icons/hi2";
-import { emailjsServices } from "@/lib/contact/contact";
+// import { emailjsServices } from "@/lib/contact/contact";
 import { useRef, useState } from "react";
 import { withSwal } from 'react-sweetalert2' /**  SweetAlert2 */
 import emailjs from "emailjs-com";
@@ -28,6 +28,7 @@ function ContactPage({ swal }) {
     const form = useRef()
     const [isLoading, setIsLoading] = useState(false)
     const contactsIsLoading = UseLoading()
+    console.log(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, process.env.NEXT_PUBLIC_PUBLICKEY)
     /** functionality for emailJS */
     const sendEmail = (e) => {
         setIsLoading(true)
@@ -35,10 +36,10 @@ function ContactPage({ swal }) {
 
         emailjs
             .sendForm(
-                emailjsServices.serviceId,
-                emailjsServices.templateId,
+                process.env.NEXT_PUBLIC_SERVICE_ID, // Your service ID here
+                process.env.NEXT_PUBLIC_TEMPLATE_ID, // Your template ID here
                 form.current,
-                emailjsServices.publicKey
+                process.env.NEXT_PUBLIC_PUBLICKEY // Your public key here
             )
             .then(
                 (result) => {

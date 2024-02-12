@@ -28,13 +28,7 @@ small {
     color: #FDC545;
 }
 
-/* sections */
-.education__section {
-    background-color: #070D1B;
-}
-
-/* end of sections stylin */
-
+/* text animation */
 .animate__text {
     display: inline-block;
     color: #A9ACB9;
@@ -136,6 +130,10 @@ small {
 .projects__btn:focus,
 .projects__btn:active {
     color: #FDC545;
+}
+
+.disabled-btn{
+    pointer-events: stroke;
 }
 
 /* end of buttons */
@@ -362,43 +360,6 @@ small {
     background-color: #282829;
 }
 
-/* .container .main-title {
-    max-width: 700px;
-    margin: 0px auto;
-    text-align: center;
-    font-family: helvetica;
-} */
-
-/* .container .main-title h1 {
-    position: relative;
-    margin-bottom: 30px;
-    display: inline-block;
-}
-
-.container .main-title h1::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    top: 125%;
-    left: 0;
-    background-color: #808080;
-}
-
-.container .main-title h1::after {
-    content: '';
-    position: absolute;
-    width: 50%;
-    height: 3px;
-    top: calc(125% - 1px);
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.main-title p {
-    color: #808080;
-} */
-
 .container .row {
     width: 100%;
     display: flex;
@@ -529,9 +490,7 @@ small {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    /* Add your desired border color */
     padding: 10px;
-    /* Add padding as needed */
 }
 
 .outer__div img {
@@ -584,6 +543,8 @@ small {
 }
 
 
+
+
 /* end of projects */
 
 /* media queries for medium and small screen sizes*/
@@ -607,5 +568,3 @@ small {
     }
 
 }
-
-/* navbar fade effect */

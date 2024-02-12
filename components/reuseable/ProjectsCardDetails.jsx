@@ -32,7 +32,7 @@ export default function ProjectsCardDetails(props) {
           <div className="flex gap-3 items-center mt-3">
             <a
               href={props.webUrl}
-              className="btn light"
+              className={`${props.webUrl ? `btn light` : `disabled-btn`}`}
               target="_blank"
               rel="noopener noreferrer"
             >

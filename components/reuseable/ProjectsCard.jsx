@@ -25,7 +25,7 @@ export default function ProjectsCard(props) {
             <h1 className="text-[#9CA] mt-4 font-bold text-2xl">
               {props.title}
             </h1>
-            <p className="mb-3 text-[#1e2f62] text-xl">{props.category}</p>
+            <p className="mb-3 text-headingColor text-xl">{props.category}</p>
           </div>
         </div>
       </div>

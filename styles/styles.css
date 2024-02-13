@@ -249,12 +249,6 @@ small {
 
 }
 
-
-
-
-
-
-
 .section__heading::before {
     content: 'About Me';
     text-transform: uppercase;

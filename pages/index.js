@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import Footer from '@/components/reuseable/Footer';
 import Spinner from '@/components/reuseable/Spinner';
 import UseLoading from '@/components/reuseable/UseLoading';
-
+import {RevealWrapper} from 'next-reveal'
 
 
 
@@ -45,13 +45,14 @@ export default function HomePage() {
                 </div>
               </Col>
               <Col md='5' className='hidden lg:block'>
-
-                <Image
-                  src='/assets/Festus Osayi.png'
-                  alt='my personal image'
-                  className='w-full h-full object-cover bg-no-repeat rounded-[50%]'
-                  fluid
-                />
+                <RevealWrapper delay={200} origin='right'>
+                  <Image
+                    src='/assets/Festus Osayi.png'
+                    alt='my personal image'
+                    className='w-full h-full object-cover bg-no-repeat rounded-[50%]'
+                    fluid
+                  />
+                </RevealWrapper>
               </Col>
             </Row>
           </Container>

@@ -7,6 +7,7 @@ import Footer from "@/components/reuseable/Footer";
 import SectionHeading from "@/components/reuseable/SectionHeading";
 import UseLoading from "@/components/reuseable/UseLoading";
 import Spinner from "@/components/reuseable/Spinner";
+import { RevealWrapper } from 'next-reveal'
 
 export default function ProjectsPage() {
     /** projects states and variables */
@@ -27,10 +28,12 @@ export default function ProjectsPage() {
                             <Row>
 
                                 {
-                                    data && data.length > 0 && data.filter((project) => project.id >= 1 && project.id <= itemsToShow).map((value) => (
+                                    data && data.length > 0 && data.filter((project) => project.id >= 1 && project.id <= itemsToShow).map((value, index) => (
                                         <>
                                             <Col lg={4} md={6} className="relative" key={value.id}>
-                                                <ProjectsCard {...value} />
+                                                <RevealWrapper delay={index * 50}>
+                                                    <ProjectsCard {...value} />
+                                                </RevealWrapper>
                                             </Col>
                                         </>
                                     ))

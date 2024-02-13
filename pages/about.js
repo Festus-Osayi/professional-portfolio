@@ -4,6 +4,7 @@ import { Container, Row, Col, Image, Button } from "react-bootstrap"
 import SectionHeading from '@/components/reuseable/SectionHeading'
 import Spinner from '@/components/reuseable/Spinner'
 import UseLoading from '@/components/reuseable/UseLoading'
+import { RevealWrapper } from 'next-reveal' // animation
 
 
 export default function AboutPage() {
@@ -22,12 +23,15 @@ export default function AboutPage() {
               <Row className='items-center'>
                 <Col lg={6} md={12} sm={12} xs={12}>
                   <div className='h-full w-full'>
-                    <Image
-                      src='/assets/Festus Osayi.png'
-                      alt="my photo image"
-                      className=" object-fit-cover w-full h-full rounded-[50%]"
-                      fluid
-                    />
+                    <RevealWrapper delay={200} origin='left'>
+
+                      <Image
+                        src='/assets/Festus Osayi.png'
+                        alt="my photo image"
+                        className=" object-fit-cover w-full h-full rounded-[50%]"
+                        fluid
+                      />
+                    </RevealWrapper>
                   </div>
 
 

@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import Footer from '@/components/reuseable/Footer';
 import Spinner from '@/components/reuseable/Spinner';
 import UseLoading from '@/components/reuseable/UseLoading';
-import {RevealWrapper} from 'next-reveal'
+import { RevealWrapper } from 'next-reveal'
 
 
 
@@ -30,7 +30,7 @@ export default function HomePage() {
                       Contact Me
                     </Button>
                   </Link>
-                  <a href='/assets/FESTUS OSAYI_RESUME__.pdf' download className='btn outline download__resume'>Download Resume</a>
+                  <a href='/assets/FESTUS OSAYI_RESUME.pdf' download className='btn outline download__resume'>Download Resume</a>
                 </div>
                 <div className='hero__border flex gap-4 mt-[5rem] bg-[#111724] py-3 px-5 rounded-2xl justify-center lg:justify-start'>
                   <div className='social__network linkedIn'>

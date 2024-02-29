@@ -21,15 +21,23 @@ export default function EducationPage() {
                                 Education
                             </SectionHeading>
                             <Row>
-                                {/* Education description */}
+                                {/* Experience description */}
                                 <Col md={6}>
                                     <div className='flex items-center gap-4 mb-4'>
-                                        <FaSchool className="text-gray-600 text-5xl" />
-                                        <h1 className="text-white text-4xl">Life in College</h1>
+                                        <HiAcademicCap className="text-gray-600 text-5xl" />
+                                        <h1 className="text-white text-4xl">Education</h1>
                                     </div>
-                                    <p className="text-greyTextColor mb-5">My four semesters at Seneca College have equipped me with comprehensive knowledge in web development, data structures, and object-oriented programming. It was a dynamic journey, involving academic exploration, hands-on projects, collaboration in team settings, engagement in extracurricular activities such as the Seneca Science & Technology Guild and Board Game Club, personal growth experiences, and networking opportunities. These experiences have collectively contributed to the establishment of a robust foundation for my career aspirations in software and full-stack development.</p>
+                                    <div className="first__col ml-5">
+                                        <div className="ml-8">
+                                            <h2 className="text-2xl font-medium">Frontend Developer Intern</h2>
+                                            <small className="text-greyTextColor font-bold text-lg">November 2022 - July 2023</small>
+                                            <h3 className="my-3 text-white text-lg font-medium">Allwood Products, Vaughan</h3>
+                                            <p className="text-greyTextColor">Allwood Products is a company that manufactures indoor and outdoor furniture across the globe, and I was opportune to intern as a front-end developer, I was able to put my talent and problem-solving skills into a real-world and more practical application.</p>
+
+                                        </div>
+                                    </div>
                                 </Col>
-                                {/* End of my education description */}
+                                {/* End of my experience description */}
 
                                 {/* My educational background */}
                                 <Col md={6}>

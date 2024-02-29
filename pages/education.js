@@ -23,7 +23,7 @@ export default function EducationPage() {
                             </SectionHeading>
                             <Row>
                                 {/* My educational background */}
-                                <Col md={6}>
+                                <Col md={6} className="mb-4">
                                     <div className='flex items-center gap-4 mb-4'>
                                         <HiAcademicCap className="text-gray-600 text-5xl" />
                                         <h1 className="text-white text-4xl">Education</h1>

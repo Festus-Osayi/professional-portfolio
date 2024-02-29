@@ -6,6 +6,7 @@ import { FaSchool } from "react-icons/fa";
 import SectionHeading from "@/components/reuseable/SectionHeading";
 import UseLoading from "@/components/reuseable/UseLoading";
 import Spinner from "@/components/reuseable/Spinner";
+import { PiToolboxFill } from "react-icons/pi";
 
 export default function EducationPage() {
     const isLoading = UseLoading()
@@ -24,8 +25,8 @@ export default function EducationPage() {
                                 {/* Experience description */}
                                 <Col md={6}>
                                     <div className='flex items-center gap-4 mb-4'>
-                                        <HiAcademicCap className="text-gray-600 text-5xl" />
-                                        <h1 className="text-white text-4xl">Education</h1>
+                                        <PiToolboxFill className="text-gray-600 text-5xl" />
+                                        <h1 className="text-white text-4xl">Experience</h1>
                                     </div>
                                     <div className="first__col ml-5">
                                         <div className="ml-8">

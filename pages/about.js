@@ -39,7 +39,12 @@ export default function AboutPage() {
                 <Col lg={6} md={12} sm={12} xs={12}>
                   <p className="text-4xl heading">Hi There! I&apos;m Festus Osayi</p>
                   <p className="text-2xl mt-3 text-headingColor">Fullstack Developer</p>
-                  <p className="text-greyTextColor leading-7 mt-3">Hello there! I am Festus Osayi. As a graduate of Computer Programming, my journey with coding began in 2021 when I moved to Canada. Since then, programming has become second nature to me, serving as a constant pursuit whether I&apos;m experiencing moments of joy, sadness, or any other emotion. Witnessing my ideas materialize into reality brings me immense satisfaction.</p>
+                  <p className="text-greyTextColor leading-7 mt-3">Festus&apos;s passion for coding stems from his love for problem-solving and creating solutions through technology. He is constantly seeking to expand his knowledge and skills in various programming languages and frameworks, always staying ahead of the curve in the ever-evolving tech industry.</p>
+
+                  <p className="text-greyTextColor leading-7 mt-3">
+                    In addition to his technical expertise, Festus is a strong communicator and team player, able to effectively collaborate with others to achieve project goals. He values diversity and inclusivity in the tech community, actively promoting a supportive and inclusive environment for all individuals.
+                  </p>
+
 
                   {/* About Festus */}
                   <ul className='text-greyTextColor leading-10 mt-3'>

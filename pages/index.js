@@ -8,7 +8,8 @@ import Footer from '@/components/reuseable/Footer';
 import Spinner from '@/components/reuseable/Spinner';
 import UseLoading from '@/components/reuseable/UseLoading';
 import { RevealWrapper } from 'next-reveal'
-
+import { ReactTyped } from 'react-typed';
+import { texts } from '@/lib/data/data';
 
 
 export default function HomePage() {
@@ -23,7 +24,17 @@ export default function HomePage() {
               <Col md='7'>
                 <small className='text-headingColor text-3xl'>Hello, I&apos;m</small>
                 <h1 className='font-bold text-8xl mt-2'>Festus Osayi</h1>
-                <h2 className='animate__text'>Fullstack Developer</h2>
+                <h2
+                  className='animate__text'
+                >
+                  <ReactTyped
+                    strings={texts}
+                    typeSpeed={90}
+                    backSpeed={40}
+                    loop
+
+                  />
+                </h2>
                 <div className='flex gap-4 mt-4 buttons'>
                   <Link href={'/contact'} passHref legacyBehavior>
                     <Button className='btn light'>

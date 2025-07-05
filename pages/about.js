@@ -38,7 +38,7 @@ export default function AboutPage() {
                 </Col>
                 <Col lg={6} md={12} sm={12} xs={12}>
                   <p className="text-4xl heading">Hi There! I&apos;m Festus Osayi</p>
-                  <p className="text-2xl mt-3 text-headingColor">Fullstack Developer</p>
+                  <p className="text-2xl mt-3 text-headingColor">DevOps Engineer | Fullstack Developer</p>
                   <p className="text-greyTextColor leading-7 mt-3">Festus&apos;s passion for coding stems from his love for problem-solving and creating solutions through technology. He is constantly seeking to expand his knowledge and skills in various programming languages and frameworks, always staying ahead of the curve in the ever-evolving tech industry.</p>
 
                   <p className="text-greyTextColor leading-7 mt-3">
@@ -53,7 +53,7 @@ export default function AboutPage() {
                       <span
                         className='inline ml-12'
                       >
-                        :&nbsp;&nbsp;&nbsp;&nbsp;July 16<sup>th</sup>, &nbsp;2002
+                        :&nbsp;&nbsp;&nbsp;&nbsp;July 16<sup>th</sup>
                       </span>
                     </li>
                     <li>
@@ -76,7 +76,7 @@ export default function AboutPage() {
                       <span
                         className='inline ml-[2.3rem]'
                       >
-                        :&nbsp;&nbsp;&nbsp;&nbsp;English
+                        :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;English, French
                       </span>
                     </li>
                   </ul>

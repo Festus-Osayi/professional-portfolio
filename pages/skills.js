@@ -48,7 +48,7 @@ export default function SkillsPage() {
                                     <div className="mt-0 flex flex-wrap">
                                         {
                                             softSkills && softSkills.length > 0 && softSkills.map((s, index) => (
-                                                <Col lg={4} md={4} xs={6} sm={6} className="mb-4" key={s.id}>
+                                                <Col lg={4} md={4} xs={4} sm={6} className="mb-4" key={s.id}>
                                                     <div
                                                         style={{ width: 120, height: 120 }}
                                                         className="flex flex-col justify-center items-center"
